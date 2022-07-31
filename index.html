@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>CodeCamp</title>
+  </head>
+  <body>
+    <img id="sign" src="images/programming-code-signs.png" alt="code-img">
+     <h4>CodeCamp</h4>
+     <div id="head">
+    <nav>
+      <li><a href="#">Home</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="">Contact</a></li>
+      </nav>
+     </div> 
+     <div id="content">
+     <p id="top-p">Let's learn how to code.</p>
+    <img id="code-img" src="images/web-development.png" alt="code-img">
+      <p id="info">Learn the Web Development with most popular frameworks like Bootstrap, Tailwind CSS, and React.</p>
+      <div id="login-div">
+        <form>
+        <input class="input" type="email" name="email" placeholder="Email" required>
+        <input class="input" type="password" placeholder="Password" required> <br>
+        <button class="btn" type="submit" id="login-btn">LogIn</button>
+         <br>
+        <button class="btn" type="button" id="signup-btn" onclick="signUp()">SingUp</button>
+         </form>
+        </div>
+    <div id="pricing"> 
+      <div class="card" >
+       <h3>Front End Development</h3>
+       <p>Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript</p>
+       <div class="pricing">
+         <button onclick="signUp()">Rs 99/month</button>
+       </div>
+      </div>
+    <div class="card" id="card2">
+       <h3>Back End Development</h3>
+       <p>Back-end development means working on server-side software, which focuses on everything you can't see on a website</p>
+       <div class="pricing">
+         <button onclick="signUp()">Rs 99/month</button>
+       </div>
+      </div>
+    <div class="card" id="card3">
+       <h3>Full Stack Development</h3>
+       <p>A full stack web developer is a person who can develop both client and server software.</p>
+       <div class="pricing">
+         <button onclick="signUp()">Rs 199/month</button>
+       </div>
+      </div>
+      </div>
+    </div>
+    <div  id="signup"> 
+      <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <select id="opt">
+   <option >Select your course</option>
+          <option>Front End Development</option>
+          <option>Back End Development</option>
+          <option>Full Stack Development</option>
+        </select>
+      <input type="password" placeholder="password" required> <br>
+      <button id="submit" type="submit" onclick="document.location='index.html'">submit</button>
+      </form>  
+      </div>
+      <script>
+        function signUp(){
+          document.getElementById("content").style.display = "none";
+          document.getElementById("signup").style.display ="inline-block";
+        }
+      </script>
+  </body>
+</html>
