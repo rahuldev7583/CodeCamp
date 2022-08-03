@@ -128,7 +128,8 @@ h3{
   font-size: 1rem;
   margin-left: 0.5rem;
 }
-/*@media only screen and (min-width: 768px){
+/*
+@media only screen and (min-width: 768px){
   body{
     background-color: white;
   }
@@ -193,8 +194,3 @@ h3{
     margin-top: 10rem;
   }
 }*/
-@media (min-width: 1400px) {
-  body{
-    background-color: blue;
-  }
-}
