@@ -193,7 +193,7 @@ h3{
     margin-top: 10rem;
   }
 }
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1024px) {
   body{
     background-color: blue;
   }
