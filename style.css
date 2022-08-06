@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0
 }
+body{
+   background-color: lightblue; 
+   }
 nav{
   display: flex;
   margin-left: 26%;
@@ -128,11 +131,11 @@ h3{
   font-size: 1rem;
   margin-left: 0.5rem;
 }
-/*
-@media only screen and (min-width: 768px){
+
+@media (min-width: 1000px){
   body{
-    background-color: white;
-  }
+    background-color: white
+}
   h4{
     font-size: 2rem;
     margin-left: 1rem;
@@ -193,4 +196,4 @@ h3{
   #card3 button{
     margin-top: 10rem;
   }
-}*/
+}
