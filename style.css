@@ -132,10 +132,10 @@ h3{
   margin-left: 0.5rem;
 }
 
-@media (min-width: 1000px){
+@media only screen and (min-width: 992px){
   body{
-    background-color: white
-}
+      background-color: lightgreen; 
+    }
   h4{
     font-size: 2rem;
     margin-left: 1rem;
